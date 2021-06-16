@@ -1,13 +1,15 @@
 # SimMISVM.jl
 
-This code base is using the [Julia Language v1.6.0](https://julialang.org/) to make a reproducible scientific project named
+In this repository is the code associated with the publication titled "A Multi-Instance Support Vector Machine with Incomplete Data for Clinical Outcome Prediction of COVID-19" presented at the 12th ACM Conference on Bioinformatics, Computational Biology, and Health Informatics (BCB '21) held virtually from August 1-4, 2021.
+
+This code base is using the [Julia Language (v1.6.0)](https://julialang.org/) to make a reproducible scientific project named
 > SimMISVM.jl 
 
 To (locally) reproduce this project, do the following:
 
 0. Download this code base. 
 1. Open a Julia console and do:
-   ```
+   ```julia
    julia> using Pkg
    julia> Pkg.activate("path/to/code")
    julia> Pkg.instantiate()
@@ -16,8 +18,8 @@ To (locally) reproduce this project, do the following:
 This will install all necessary packages for you to be able to run the scripts and
 everything should work out of the box.
 
-2. Run the tests associated with the linear and kernel pdMISVM models:
-   ```
+2. Run the tests associated with the SimMISVM model:
+   ```julia
    julia> include("test/simmisvm_test.jl")
    ```
 These tests ensure that the updates derived in Algorithm 2 are correct. E.g. since variable update is derived with respect to a primal variable, and the minimization is quadratic with respect to that variable, the Lagrangian should be a minimum after that variable has been updated. **Please note: The frist time this code is run it may take some extra time.**
