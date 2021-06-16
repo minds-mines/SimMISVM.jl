@@ -43,7 +43,7 @@ Models implemented from: https://github.com/alan-turing-institute/MLJ.jl
 Our model:
 
 | Model | hyperparameter settings |
-
+| ------- | ----- |
 | MISVM | `C = 1e-3, μ=1e-4, ρ=1.2` |
 | SimMISVM | `C = 10, α=0.01, β=0.01, μ=1e-4, ρ=1.2` |
 
