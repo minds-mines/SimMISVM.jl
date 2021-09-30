@@ -62,4 +62,14 @@ If you have any trouble with this code please [open a GitHub issue](https://gith
 
 ## Citing This Work
 
-TODO
+If you find this code useful please consider citing the following:
+
+```bibtex
+@inproceedings{brand2021multi,
+  title={A multi-instance support vector machine with incomplete data for clinical outcome prediction of COVID-19},
+  author={Brand, Lodewijk and Baker, Lauren Zoe and Wang, Hua},
+  booktitle={Proceedings of the 12th ACM Conference on Bioinformatics, Computational Biology, and Health Informatics},
+  pages={1--6},
+  year={2021}
+}
+```
