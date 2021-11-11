@@ -2,6 +2,8 @@
 
 In this repository is the code associated with the publication titled "A Multi-Instance Support Vector Machine with Incomplete Data for Clinical Outcome Prediction of COVID-19" presented at the 12th ACM Conference on Bioinformatics, Computational Biology, and Health Informatics (BCB '21) held virtually from August 1-4, 2021.
 
+[![A Multi-Instance Support Vector Machine with Incomplete Data for Clinical Outcome Prediction of COVID-19](/images/simmisvm-thumbnail.png)](https://www.youtube.com/watch?v=eOXWoVuUQ_o)
+
 This code base is using the [Julia Language (v1.6.0)](https://julialang.org/) to make a reproducible scientific project named
 > SimMISVM.jl 
 
